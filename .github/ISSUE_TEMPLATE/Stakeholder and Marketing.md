@@ -25,9 +25,9 @@ assignees: Username of the person responsible for implementing
 
 ---
 
-|    name            |          about          |                  title                   |          labels         |         assignees            |
-|--------------------|-------------------------|------------------------------------------|-------------------------|------------------------------|
-| Davide Mastroianni |    Store Administrator    | Create a Product in Catalog | Administrator IT | Carlo Verdone |
+|    name            |          about          |           title             |      labels      |      assignees      |
+|--------------------|-------------------------|-----------------------------|------------------|---------------------|
+| Davide Mastroianni |    Store Administrator  | Create a Product in Catalog | Administrator IT |     Carlo Verdone   |
 
 ---
 
