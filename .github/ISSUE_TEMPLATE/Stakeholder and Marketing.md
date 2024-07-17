@@ -27,21 +27,27 @@ assignees: Username of the person responsible for implementing
 
 |    name            |          about          |                  title                   |          labels         |         assignees            |
 |--------------------|-------------------------|------------------------------------------|-------------------------|------------------------------|
-| Davide Mastroianni |    Marketing Manager    | Integrate social media data into reports | Social Media, Reporting | Carlo Verdone (Data Analyst) |
+| Davide Mastroianni |    Store Administrator    | Create a Product in Catalog | Administrator IT | Carlo Verdone |
 
 ---
 
-**As a** Marketing Manager  
-**I need** to integrate social media data  
-**So that** I can analyze social media performance alongside other marketing data
+**As a** Store Administrator 
+**I need** to create a new product in the catalog  
+**So that** I can add items for sale on the website
 
 ### Details and Assumptions
-* Data will be available via API. Requires integration development.
+* As a store administrator, you want to create a new product in the catalog
+* This allows you to add items for sale on the website
 
 ### Acceptance Criteria  
-* (Reports will display social media metrics like follower growth and engagement alongside website traffic data)
+* When you submit a new product with details, the product should be successfully created in the catalog
+* The product details should be retrievable using its unique identifier
   
 ```gherkin
-Given The social media data integration is complete.
-When A marketing report is generated.
-Then The report displays social media data alongside website traffic data.
+Given I am a logged-in store administrator
+When I submit a new product with details 
+Then the product should be successfully created in the catalog
+And the product details should be retrievable by its unique identifier
+ ```
+
+---
