@@ -1,7 +1,8 @@
 # Introduction to Agile Development and Scrum
 # Agile Final Project - Week 4
 
-Honors Peer-graded Assignment: Peer Review: Submit your Work and Review your Peers
+# Honors Peer-graded Assignment: Peer Review: Submit your Work and Review your Peers
+
 In the first part I developed a series of examples, describing the stakeholder and in the second the Store Administrator.
 
 This project allowed me to learn a lot about GitHub, although I found the programming quite difficult.
